@@ -22,7 +22,7 @@ jobs:
 
       # ================================================================================================================
       - name: Build Hugo website in the beta directory
-        run: hugo --minify --gc --destination tmp/beta
+        run: hugo --minify --gc --baseURL=https://royllo.github.io/beta/ --destination tmp/beta
 
       # ================================================================================================================
       - name: Deploy the website to github pages
