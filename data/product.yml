@@ -1,9 +1,9 @@
-################################## Vision ##############################
-vision:
+################################## Product ##############################
+product:
   enable : true
-  visionItem:
+  productItem:
     #
-    - title : "vision !?"
+    - title : "Product !?"
       image : "images/illustrations/about-img.png"
       content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
