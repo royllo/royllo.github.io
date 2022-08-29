@@ -4,7 +4,10 @@ banner:
   bgImage: "images/backgrounds/banner-bg.png"
   image: "images/illustrations/app-screen-1.png"
   title: "**Taro Asset Universe.** Applications, services & tooling."
-  content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored off-chain with Taro clients."
+  content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset 
+            holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored
+            off-chain with Taro clients.
+            \n\n **This is a work in progress, no release yet !**"
   button:
     enable: true
     label: "Contact us"

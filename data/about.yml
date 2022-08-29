@@ -15,5 +15,5 @@ about:
 
 ################################ Service ##################################
 service:
-  enable : true
+  enable : false
   # service data comes from 'data/service.yml'

@@ -1,0 +1,13 @@
+################################## Taro ##############################
+taro:
+  enable : true
+  taroItem:
+    #
+    - title : "Salut !?"
+      image : "images/illustrations/about-img.png"
+      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+    #
+    - title : "What is our **Mission**?"
+      image : "images/illustrations/about-img-2.png"
+      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
