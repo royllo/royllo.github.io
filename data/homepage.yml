@@ -1,0 +1,105 @@
+############################### Banner #################################
+banner:
+  enable: true
+  bgImage: "images/backgrounds/banner-bg.png"
+  image: "images/illustrations/app-screen-1.png"
+  title: "**Taro Asset Universe.** Applications, services & tooling."
+  content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored off-chain with Taro clients."
+  button:
+    enable: true
+    label: "Follow us on Twitter"
+    link: "https://twitter.com/royllo_systems"
+
+
+############################# Clients logo #################################
+clientsLogo:
+  enable: false
+  logos:
+    - logo: "images/clients-logo/clients-logo-1.png"
+    - logo: "images/clients-logo/clients-logo-2.png"
+    - logo: "images/clients-logo/clients-logo-3.png"
+    - logo: "images/clients-logo/clients-logo-4.png"
+    - logo: "images/clients-logo/clients-logo-5.png"
+    - logo: "images/clients-logo/clients-logo-6.png"
+    - logo: "images/clients-logo/clients-logo-7.png"
+    - logo: "images/clients-logo/clients-logo-8.png"
+
+
+################################ Service ##################################
+service:
+  enable: false
+  # service data comes from 'data/service.yml'
+
+######################################## About #############################
+about:
+  enable: false
+  title: "What We can **do for you**?"
+  image: "images/illustrations/about-img.png"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna justo takimata sanctus est Lorem ipsum dolor sit rergg rgsea dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
+  button:
+    enable: false
+    label: "know more"
+    link: "about"
+
+
+##################################### call to action #######################
+cta:
+  enable: false
+  bgImage: "images/backgrounds/footer-bg.png"
+  title: "Join 75,000+ growing businesses that use Buffer to build their brands"
+  button:
+    enable: false
+    label: "Join us now"
+
+
+################################## About App ##############################
+aboutApp:
+  enable: false
+  appItem:
+    # about app item loop
+    - title: "**Collaborate** on content with your team"
+      image: "images/about-app/app-screen-1.png"
+      content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+    # about app item loop
+    - title: "Take your **marketing** to the next level"
+      image: "images/about-app/app-screen-2.png"
+      content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+    # about app item loop
+    - title: "**Collaborate** on content with your team"
+      image: "images/about-app/app-screen-3.png"
+      content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+
+#################################### Testimonial ##########################
+testimonial:
+  enable: false
+  title: "What **Peoples Says** About Us"
+  sliderItem:
+    # slider item loop
+    - name: "John Doe"
+      designation: "CEO,3D Coders"
+      image: "images/testimonial/user-1.jpg"
+      content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+      rating: "four"
+
+    # slider item loop
+    - name: "Mark Dinn"
+      designation: "CEO,3D Coders"
+      image: "images/testimonial/user-1.jpg"
+      content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+      rating: "five"
+
+
+################################## Pricing ################################
+pricing:
+  enable: false
+  # pricing data comes from "data/pricing"
+
+############################# Contact #################################
+contact:
+  enable: false
+  # contact data comes from "data/contact"
