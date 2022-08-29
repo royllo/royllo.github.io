@@ -13,12 +13,9 @@ With Ubuntu, run `snap install hugo --channel=extended` or `sudo apt-get install
 
 ## Initialize website
 
-To create a hugo website, in the project directory, just type: `hugo new site . --force`
+To create a hugo website, in the project directory, just type: `hugo new site . --force`. Read the documentation to
+know how to install the theme.
 
 ## Run locally
 
 To view the website, in the project directory, run: `hugo server -D`
-
-## Install the theme
-
-We bought a theme, to install it, 

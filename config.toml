@@ -45,16 +45,16 @@ theme = "gosaas-hugo"
   ###################### footer menu
   [[menu.footer]]
   name = "What is Taro ?"
-  URL = "whatIsTaro"
+  URL = "taro"
   weight = 2
 
   [[menu.footer]]
   name = "Our vision"
-  URL = "ourVision"
+  URL = "vision"
   weight = 3
 
   [[menu.footer]]
-  name = "Product"
+  name = "Our product"
   URL = "product"
   weight = 4
 
