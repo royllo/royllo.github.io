@@ -24,12 +24,24 @@
         </ul>
       </div>
       <div class="col-lg-4">
-        <h6 class="mb-4">Lets Subscribe Your Email</h6>
+        <h6 class="mb-4">Subscribe to our newsletter</h6>
         <div class="input-group mb-5">
-          <input type="text" class="subscription-form flex-fill" placeholder="Your Email Address">
-          <div class="input-group-append">
-            <button class="input-group-text btn btn-primary rounded-0"><img class="img-fluid" src="{{`images/arrow.svg` | absURL }}" alt=""></button>
-          </div>
+          <div id="custom-substack-embed"></div>
+
+          <script>
+            window.CustomSubstackWidget = {
+              substackUrl: "royllo.substack.com",
+              theme: "custom",
+              colors: {
+                primary: "#FFBB33",
+                input: "#FFFFFF",
+                email: "#000000",
+                text: "#000000",
+              }
+            };
+          </script>
+          <script src="https://substackapi.com/widget.js" async></script>
+
         </div>
         <ul class="list-inline">
           {{ range .Site.Params.footer.card }}
@@ -40,9 +52,9 @@
     </div>
     <div class="position-relative zindex-1 text-center pb-5">{{ .Site.Params.copyright | markdownify }}</div>
   </div>
+
 </footer>
 <!-- /footer -->
-
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}

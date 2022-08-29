@@ -99,31 +99,23 @@ copyright = "| @2022 Royllo All Rights Reserved |"
   # Navigation get start button
   [params.navButton]
   enable = true
-  label = "Visit our GitHub"
+  label = "Our GitHub"
   link = "https://github.com/royllo"
 
 
 ############################### social links ############################
 [[params.social]]
-name = "Facebook"
-link = "#"
-
-[[params.social]]
 name = "Twitter"
-link = "#"
+link = "https://twitter.com/royllo_systems"
 
 [[params.social]]
 name = "Github"
-link = "#"
-
-[[params.social]]
-name = "Linkedin"
-link = "#"
+link = "https://github.com/royllo"
 
 
 ########################### footer call to action #####################
 [params.cta]
-enable = true
+enable = false
 title  = "Join 75,000+ growing businesses that <br> use Buffer to build their brands"
 #button
 label = "Get start with us"
@@ -133,12 +125,4 @@ link = "#"
 ############################ footer ##############################
 [params.footer]
 bgImage = "images/backgrounds/footer-bg.png"
-content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has."
-
-# card we accept
-[[params.footer.card]]
-image = "images/paypal.png"
-[[params.footer.card]]
-image = "images/visa.png"
-[[params.footer.card]]
-image = "images/a-express.png"
+content = "We provide applications, services & tooling for Taro Asset Universes."
