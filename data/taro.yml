@@ -39,3 +39,24 @@ taro:
                 With the lighting network, the balance of Alice, Bob and Carole evolve off-chain with each transaction
                 they exchange privately. At any moment, anyone can publish a closing transaction to write in the
                 blockchain the final balance of Alice, Bob and Carole."
+
+    - title: "What is **Taproot**?"
+      image: "images/illustrations/about-img-2.png"
+      content: "Taproot (BIP 340) is an upgrade to Bitcoin which brought several new features (Schnorr Signatures, Taproot
+                & Tapscript). \n\n
+      
+                Schnorr Signatures allows key aggregation. When multiple parties want to sign the same message, they must
+                each include their public key and signature. Schnorr public keys and signature can be aggregated such that, 
+                if three parties want to sign a transaction, they can combine their three public keys to form a single public key.
+                They can combine their three signatures to form a single signature which is valid for the aggregate public key.
+                A verifier must only verify a single signature and public key in order to be sure that all three parties signed 
+                the message. \n\n
+                
+                Taproot (BIP 341) defines how Bitcoin’s protocol integrates Schnorr signatures and it includes Merkelized
+                Alternative Script Trees (MAST) which allow users to lock outputs to multiple scripts. Instead of having many
+                scripts to lock a transaction, the transaction is locked to the Merkle root of these scripts. To unlock the transaction,
+                the spender must reveal the script which they are using to unlock the bitcoins, as well as proof that this 
+                script is included in the Merkle root of the previous transaction. \n\n
+                
+                Tapscript (BIP 342) adds and updates several opcodes. These new scripts are used to verify Taproot spends
+                and Schnorr signatures, and they are collectively known as Tapscript."
