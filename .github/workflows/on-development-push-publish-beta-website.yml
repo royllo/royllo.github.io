@@ -1,4 +1,4 @@
-name: development - Publish website on beta directory
+name: Development - Publish beta website
 
 on:
   push:
