@@ -1,5 +1,5 @@
 ---
-title: "What is **Taro** ?"
+title: "What is **Taro**?"
 draft: false
 ---
 

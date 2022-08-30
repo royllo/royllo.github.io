@@ -1,13 +1,41 @@
-################################## Taro ##############################
+################################## Taro ##################################
 taro:
-  enable : true
+  enable: true
   taroItem:
-    #
-    - title : "Salut !?"
-      image : "images/illustrations/about-img.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+    - title: "What is **Bitcoin**?"
+      image: "images/illustrations/about-img.png"
+      content: "Bitcoin is a form of digital cash that eliminates the need for central authorities such as banks or
+                governments or any central authority. This means money flows directly from the sender to the receiver, 
+                and it is never held or controlled by a third party in between. \n\n
 
-    #
-    - title : "What is our **Mission**?"
-      image : "images/illustrations/about-img-2.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+                Nobody independently owns or controls Bitcoin, so everyone can participate in the network and no one can
+                stop, forbid or erase any transaction. You are sovereign on your Bitcoin, nobody can set any limit on 
+                what you can do with the bitcoins you own. \n\n
+
+                Bitcoin’s Monetary Policy is also independent as the total bitcoin’s supply has been limited to 21 
+                million Bitcoins. New Bitcoins are created approximately every 10 minutes (Right now there is almost 18 
+                million Bitcoin in circulation)."
+
+    - title: "What is **Lighting network**?"
+      image: "images/illustrations/about-img-2.png"
+      content: "Bitcoin’s blockchain can only process an average of 7 transactions per second and, for several excellent
+                reasons, it would not be a good idea to raise the number of transactions stored every 10 minutes. Just
+                imagine the costs of storing 150 million transactions per day like visa does... \n\n
+                
+                The Lightning Network is a second-layer protocol designed to enable Bitcoin transactions which are not
+                recorded on the blockchain. Because they are not recorded on the blockchain, and thus require no mining,
+                Lightning payments are extremely fast and cheap. \n\n
+                
+                Alice, Bob and Carole are brothers and sisters. They often refund each other (restaurants, presents,
+                loans...). Using Bitcoin for this would be a terrible idea as, for each transaction, they will have to 
+                pay high fees. Lighting network has been invented for cases like this one! this is a very simple and
+                very incomplete explanation of how it works :  \n\n
+                - Alice, Bob and Carole will create a bitcoin transaction to lock some bitcoins. \n
+                - Alice creates a transaction to refund Carole for the parent's present she bought and give it to Carole. \n
+                - Bob creates a transaction to refund Carole for the parent's present she bought and give it to Carole. \n
+                - Alice creates a transaction to refund Bob for the Carole's present he bought. \n
+                - They can do that as long as they want... transactions are never sent the blockchain. \n
+  
+                With the lighting network, the balance of Alice, Bob and Carole evolve off-chain with each transaction
+                they exchange privately. At any moment, anyone can publish a closing transaction to write in the
+                blockchain the final balance of Alice, Bob and Carole."

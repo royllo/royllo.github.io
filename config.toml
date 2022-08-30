@@ -28,7 +28,7 @@ theme = "gosaas-hugo"
 [menu]
 
   [[menu.main]]
-  name = "What is Taro ?"
+  name = "What is Taro?"
   URL = "taro"
   weight = 2
 
@@ -44,7 +44,7 @@ theme = "gosaas-hugo"
 
   ###################### footer menu
   [[menu.footer]]
-  name = "What is Taro ?"
+  name = "What is Taro?"
   URL = "taro"
   weight = 2
 
