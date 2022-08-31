@@ -3,7 +3,7 @@ taro:
   enable: true
   taroItem:
     - title: "What is **Bitcoin**?"
-      image: "images/illustrations/about-img.png"
+      image: "images/illustrations/bitcoin_logo.png"
       content: "Bitcoin is a form of digital cash that eliminates the need for central authorities such as banks or
                 governments or any central authority. This means money flows directly from the sender to the receiver, 
                 and it is never held or controlled by a third party in between. \n\n
@@ -17,7 +17,7 @@ taro:
                 million Bitcoin in circulation)."
 
     - title: "What is **Lighting network**?"
-      image: "images/illustrations/about-img-2.png"
+      image: "images/illustrations/bitcoin_lightning_logo.png"
       content: "Bitcoin’s blockchain can only process an average of 7 transactions per second and, for several excellent
                 reasons, it would not be a good idea to raise the number of transactions stored every 10 minutes. Just
                 imagine the costs of storing 150 million transactions per day like visa does... \n\n
@@ -41,7 +41,7 @@ taro:
                 blockchain the final balance of Alice, Bob and Carole."
 
     - title: "What is **Taproot**?"
-      image: "images/illustrations/about-img-2.png"
+      image: "images/illustrations/taproot_logo.jpg"
       content: "Taproot (BIP 340) is an upgrade to Bitcoin which brought several new features (Schnorr Signatures, Taproot
                 & Tapscript). \n\n
       
@@ -60,3 +60,19 @@ taro:
                 
                 Tapscript (BIP 342) adds and updates several opcodes. These new scripts are used to verify Taproot spends
                 and Schnorr signatures, and they are collectively known as Tapscript."
+
+    - title: "What is **Taro**?"
+      image: "images/illustrations/taro_logo.jpg"
+      content: "Taro (Taproot Asset Representation Overlay) is a protocol that allows people to issue digital assets on the
+                Bitcoin blockchain (like a stable coin or an NFT). Those assets can be transferred with a classical Bitcoin
+                transaction, or an off-chain transaction over the Lightning Network. \n\n
+                
+                Since Taproot, you can lock an UTXO within a tree structure called the 'tapScript branch'. You don't store
+                the tree in the transaction but only the hash of the tree merkel root. So you can create complexe scripts without
+                writing them in the blockchain and without revealing them! \n\n
+
+                With Taro, we use that tree structure to let developers embed arbitrary asset metadata (asset script hash, amont, metadata….) and 
+                that tree structure merkel root hash only has to be stored into an existing transaction output to make it available ! \n\n
+                
+                Assets issued on Taro can be deposited into Lightning Network channels, where nodes can offer atomic conversions
+                from Bitcoin to Taro assets."
