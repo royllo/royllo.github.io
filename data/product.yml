@@ -1,13 +1,26 @@
-################################## Product ##############################
 product:
   enable : true
-  productItem:
-    #
-    - title : "Product !?"
-      image : "images/illustrations/about-img.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  title : "**T**aro **A**sset **U**niverse **E**xplorer"
+  productionDescription : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+  # Call to action 1.
+  cta1Label : "Getting started"
+  cta1URL : "http://www.yahoo.fr"
+  # Call to action 2.
+  cta2Label: "Documentation"
+  cta2URL: "http://www.yahoo.en"
 
-    #
-    - title : "What is our **Mission**?"
-      image : "images/illustrations/about-img-2.png"
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  featureItem:
+    - title : "Promotion Campaign"
+      icon : "ti-announcement" # themify icon pack https://themify.me/themify-icons
+      iconColor : "primary" # color available : primary, secondary, tertiary
+      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+
+    - title : "Clint Communication"
+      icon : "ti-comments" # themify icon pack https://themify.me/themify-icons
+      iconColor : "secondary" # color available : primary, secondary, tertiary
+      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+
+    - title : "Data Analysis"
+      icon : "ti-bar-chart" # themify icon pack https://themify.me/themify-icons
+      iconColor : "tertiary" # color available : primary, secondary, tertiary
+      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."

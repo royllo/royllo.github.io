@@ -2,23 +2,35 @@
 
 {{ partial "page-title.html" . }}
 
+<!-- Product -->
 {{ with .Site.Data.product.product }}
 <section class="section pb-0">
   <div class="container">
-    {{ range $i,$p := .productItem }}
-    <div class="row justify-content-center align-items-center mb-50">
-      <div
-        class="col-lg-5 {{if not (modBool $i 2)}} pl-lg-5 order-1 order-lg-2 text-lg-left text-right {{ else }} pr-lg-5 {{end}}">
-        <img src="{{ .image | absURL }}" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-6{{if not (modBool $i 2)}} order-2 order-lg-1 text-lg-left text-right {{ end }}">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
         <h2 class="title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <p>{{ .productionDescription | markdownify }}</p>
+        <p>
+          <a href="{{ .cta1URL | absURL }}" class="btn btn-outline-tertiary btn-sm ml-lg-4">{{ .cta1Label }}</a>
+          <a href="{{ .cta2URL | absURL }}" class="btn btn-outline-tertiary btn-sm ml-lg-4">{{ .cta2Label }}</a>
+        </p>
       </div>
+      {{ range .featureItem }}
+      <!-- service item -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card text-center">
+          <div class="card-body p-lg-5 px-3 py-4">
+            <i class="icon {{ .icon }} bg-{{.iconColor}} mb-4"></i>
+            <h4 class="card-title mb-3">{{ .title | markdownify }}</h4>
+            <p class="card-text">{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
     </div>
-    {{ end }}
   </div>
 </section>
 {{ end }}
+<!-- /service -->
 
 {{ end }}

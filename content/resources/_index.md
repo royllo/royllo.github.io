@@ -13,7 +13,6 @@ draft: false
 ## Learn about Taro Asset Universe
 
 - [Taro Asset Universe BIP](https://github.com/Roasbeef/bips/blob/bip-taro/bip-taro-universe.mediawiki)
-- []()
 
 ## Learn about Taproot
 
