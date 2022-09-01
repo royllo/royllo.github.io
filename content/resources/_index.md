@@ -22,27 +22,27 @@ draft: false
 
 ## Learn about Merkle root
 
-- []()
+- [Merkelized Alternative Script Tree (MAST)](https://river.com/learn/terms/m/merkelized-alternative-script-tree-mast/)
 
 ## Technologies
 
-### Java
+Java
 
 - [Merkle Tree: Implementation in java and its real world applications](https://www.pranaybathini.com/2021/05/merkle-tree.html)
 - [Merkle Tree: Implementation in Cassandre](https://github.com/apache/cassandra/blob/trunk/src/java/org/apache/cassandra/utils/MerkleTree.java)
 - [Merkle Tree: A random implementation](https://github.com/richpl/merkletree/blob/master/src/merkletree/MerkleTree.java)
 - [Testing with JUnit and Postgresql](https://www.testcontainers.org/quickstart/junit_5_quickstart/)
 
-### Database
+Database
 
 - [Represent a Tree Structure Using Postgres](https://patshaughnessy.net/2017/12/11/trying-to-represent-a-tree-structure-using-postgres)
 - [Handling tree data models with PostgreSQL and Java](https://luistrigueiros.medium.com/handling-tree-data-models-with-postgresql-and-java-3c440105dead)
 
-### Bitcoin & Lighting network
+Bitcoin & Lighting network
 
 - [One-click Bitcoin Lightning networks for local app development & testing](https://lightningpolar.com/)
 
-### Other
+Other
 
 - [D2 is a domain-specific language where you write in text what you want diagrammed and generates it](https://d2-lang.com/tour/intro)
 - [Seamlessly visualize your JSON data instantly into graphs](https://jsoncrack.com/)
