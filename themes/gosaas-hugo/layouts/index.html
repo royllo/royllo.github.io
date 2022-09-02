@@ -11,8 +11,13 @@
         <h1 class="title">{{ .title | markdownify }}</h1>
         <p>{{ .content | markdownify }}</p>
         <br>
-        {{ if .button.enable }}
-        {{ with .button }}
+        {{ if .button1.enable }}
+        {{ with .button1 }}
+        <a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+        {{ if .button2.enable }}
+        {{ with .button2 }}
         <a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}

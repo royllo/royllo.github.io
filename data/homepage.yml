@@ -6,13 +6,15 @@ banner:
   title: "**Taro Asset Universe.** Applications, services & tooling."
   content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset 
             holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored
-            off-chain with Taro clients.
-            \n\n **This is a work in progress, no release yet !**"
-  button:
+            off-chain with Taro clients."
+  button1:
     enable: true
-    label: "Contact us"
-    link: "mailto:contact@royllo.org"
-
+    label: "Run your universe"
+    link: ""
+  button2:
+    enable: true
+    label: "Use our universe"
+    link: ""
 
 ############################# Clients logo #################################
 clientsLogo:
