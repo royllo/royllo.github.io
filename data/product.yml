@@ -1,26 +1,33 @@
 product:
   enable : true
   title : "**T**aro **A**sset **U**niverse **E**xplorer"
-  productionDescription : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+  productionDescription : "A Taro Asset Universe is a service that provides information about assets, as well as proofs for asset holders.
+                            It acts similarly to a Bitcoin block explorer but showcases Taro transaction data. \n\n
+                            
+                            **T**aro **A**sset **U**niverse **E**xplorer allows you to run your own universe. \n\n"
+  onlineOffer: "You can also use our free online service"
   # Call to action 1.
   cta1Label : "Getting started"
   cta1URL : "http://www.yahoo.fr"
   # Call to action 2.
   cta2Label: "Documentation"
   cta2URL: "http://www.yahoo.en"
+  # Call to action 3.
+  cta3Label: "Access TAUE online"
+  cta3URL: "#"
 
   featureItem:
-    - title : "Promotion Campaign"
-      icon : "ti-announcement" # themify icon pack https://themify.me/themify-icons
-      iconColor : "primary" # color available : primary, secondary, tertiary
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
-
-    - title : "Clint Communication"
-      icon : "ti-comments" # themify icon pack https://themify.me/themify-icons
-      iconColor : "secondary" # color available : primary, secondary, tertiary
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
-
-    - title : "Data Analysis"
-      icon : "ti-bar-chart" # themify icon pack https://themify.me/themify-icons
-      iconColor : "tertiary" # color available : primary, secondary, tertiary
-      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+#    - title : "Promotion Campaign"
+#      icon : "ti-announcement" # themify icon pack https://themify.me/themify-icons
+#      iconColor : "primary" # color available : primary, secondary, tertiary
+#      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+#
+#    - title : "Clint Communication"
+#      icon : "ti-comments" # themify icon pack https://themify.me/themify-icons
+#      iconColor : "secondary" # color available : primary, secondary, tertiary
+#      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+#
+#    - title : "Data Analysis"
+#      icon : "ti-bar-chart" # themify icon pack https://themify.me/themify-icons
+#      iconColor : "tertiary" # color available : primary, secondary, tertiary
+#      content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
