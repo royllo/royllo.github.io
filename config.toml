@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.royllo.org"
 languageCode = "en-us"
-title = "Royllo | Taro Asset Universe applications, services & tooling"
+title = "Royllo | Taro applications, services & tooling"
 theme = "gosaas-hugo"
 
 ############################# Plugins ##############################
@@ -35,17 +35,13 @@ theme = "gosaas-hugo"
   [[menu.main]]
   name = "Our vision"
   URL = "vision"
+  weight = 1
+
+  [[menu.main]]
+  name = "Our products"
+  URL = "products"
   weight = 3
 
-  [[menu.main]]
-  name = "Our product"
-  URL = "product"
-  weight = 4
-
-  [[menu.main]]
-  name = "Resources"
-  URL = "resources"
-  weight = 5
 
   ###################### footer menu
   [[menu.footer]]
@@ -56,12 +52,12 @@ theme = "gosaas-hugo"
   [[menu.footer]]
   name = "Our vision"
   URL = "vision"
-  weight = 3
+  weight = 1
 
   [[menu.footer]]
-  name = "Our product"
-  URL = "product"
-  weight = 4
+  name = "Our products"
+  URL = "products"
+  weight = 3
 
 
 #################### default parameters ################################
@@ -69,7 +65,7 @@ theme = "gosaas-hugo"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "We provide applications, services & tooling for taro asset universes."
+description = "We provide applications, services & tooling for Taro."
 author = "Themefisher"
 # Google Analitycs TODO fill google analtycs ID
 googleAnalitycsID = "Your ID"
@@ -89,6 +85,10 @@ copyright = "@2023 Royllo All Rights Reserved"
 
 
 ############################### social links ############################
+[[params.social]]
+name = "Email"
+link = "mailto:contact@royllo.org"
+
 [[params.social]]
 name = "Twitter"
 link = "https://twitter.com/royllo_systems"
@@ -110,4 +110,9 @@ link = "#"
 ############################ footer ##############################
 [params.footer]
 bgImage = "images/backgrounds/footer-bg.png"
-content = "We provide applications, services & tooling for Taro Asset Universes."
+content = "We provide applications, services & tooling for Taro."
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

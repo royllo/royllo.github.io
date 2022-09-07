@@ -3,18 +3,22 @@ banner:
   enable: true
   bgImage: "images/backgrounds/banner-bg.png"
   image: "images/illustrations/app-screen-1.png"
-  title: "**Taro Asset Universe.** Applications, services & tooling."
+  title: "**Taro** Applications, services & tooling."
   content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset 
             holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored
             off-chain with Taro clients."
   button1:
     enable: true
-    label: "Run your universe"
-    link: ""
+    label: "Taro Asset Universe Explorer"
+    link: "products/"
   button2:
-    enable: true
+    enable: false
     label: "Use our universe"
     link: ""
+  button3:
+    enable: true
+    label: "Learn about Taro"
+    link: "https://learn.royllo.org"
 
 ############################# Clients logo #################################
 clientsLogo:
