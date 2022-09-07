@@ -4,9 +4,9 @@ banner:
   bgImage: "images/backgrounds/banner-bg.png"
   image: "images/illustrations/app-screen-1.png"
   title: "**Taro** Applications, services & tooling."
-  content: "A Taro Asset Universe is a service that provides information about Taro assets, as well as proofs for asset 
-            holders. It acts similarly to a Bitcoin block explorer but showcases Taro transaction data which is stored
-            off-chain with Taro clients."
+  content: "Taro (Taproot Asset Representation Overlay) is a protocol that allows people to issue digital assets on the Bitcoin
+blockchain (like a stable coin or an NFT). Those assets can be transferred with a classical Bitcoin transaction, or an
+off-chain transaction over the Lightning Network."
   button1:
     enable: true
     label: "Taro Asset Universe Explorer"
