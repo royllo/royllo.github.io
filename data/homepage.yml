@@ -8,9 +8,9 @@ banner:
 blockchain (like a stable coin or an NFT). Those assets can be transferred with a classical Bitcoin transaction, or an
 off-chain transaction over the Lightning Network."
   button1:
-    enable: true
+    enable: false
     label: "Taro Asset Universe Explorer"
-    link: "products/"
+    link: "products"
   button2:
     enable: false
     label: "Use our universe"
@@ -18,7 +18,7 @@ off-chain transaction over the Lightning Network."
   button3:
     enable: true
     label: "Learn about Taro"
-    link: "https://learn.royllo.org"
+    link: "taro"
 
 ############################# Clients logo #################################
 clientsLogo:

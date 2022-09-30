@@ -5,18 +5,18 @@ product:
                             It acts similarly to a Bitcoin block explorer but showcases Taro transaction data. \n\n
                             
                             **T**aro **A**sset **U**niverse **E**xplorer allows you to run your own universe. \n\n"
-  onlineOffer: "You can also use our free online service"
+  onlineOffer: "This is a work in progress ! Subscribe to our Newletter or follow us on Twitter"
   # Call to action 1.
-  cta1Label : "Getting started"
-  cta1URL : "http://www.yahoo.fr"
-  # Call to action 2.
-  cta2Label: "Documentation"
-  cta2URL: "http://www.yahoo.en"
-  # Call to action 3.
-  cta3Label: "Access TAUE online"
-  cta3URL: "#"
+#  cta1Label : "Getting started"
+#  cta1URL : "#"
+#  # Call to action 2.
+#  cta2Label: "Documentation"
+#  cta2URL: "#"
+#  # Call to action 3.
+#  cta3Label: "Access TAUE online"
+#  cta3URL: "#"
 
-  featureItem:
+#  featureItem:
 #    - title : "Promotion Campaign"
 #      icon : "ti-announcement" # themify icon pack https://themify.me/themify-icons
 #      iconColor : "primary" # color available : primary, secondary, tertiary
